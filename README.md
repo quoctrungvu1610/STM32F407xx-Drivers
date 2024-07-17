@@ -21,6 +21,7 @@ This example uses the STM32f407xx to transmit data to the Arduino using the SPI 
 |             |                       | Pin 10 (Connect to GND) |
 
 #### How to test:
-1. Build and Upload the sketch from /Src/008spi_cmd_handling.c to STM32F407xx series
-2. Build and Upload the sketch from /Arduino to Arduino UNO board
-3. Open the Serial Monitor on Arduino IDE, then press the User Button on STM23F407xx board
+1. Build and Upload the sketch from /Src/008spi_cmd_handling.c to STM32F407xx series.
+2. Build and Upload the sketch from /Arduino/spi/002SPISlaveCmdHandling.ino to Arduino UNO board.
+3. Connect a LED to pin 9 of Arduino UNO Board. 
+4. Open the Serial Monitor on Arduino IDE, then press the User Button on STM23F407xx board.
